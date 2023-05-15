@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Earthquake Advocacy</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <header>
+            <h1>Join Now!</h1>
+            <h3>Advocacate for those affected by Earthquakes.</h3>
+        </header>
+        <div class="info">
+            <p>Between 1998-2017, earthquakes caused nearly 750 000 deaths globally, more than half of all deaths related to natural disasters.</p>
+            <p>More than 125 million people were affected by earthquakes during this time, meaning they were injured, lost homes, displaced or evacuated during the emergency phase of the disaster.</p>
+            <p>Agriculture and nature have been severely affected by earthquakes, leading to the broken homes of humans and animals.</p>
+            <p>Help us in advocating for those who lost their homes and their loved ones because of natural disasters.</p>
+            <p style="font-size: 20px">For all the lives lost. For all those affected. For all those who've suffered.</p>
+        </div>
+        <form action="action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+              <h1>Sign Up</h1>
+              <p>Please fill in this form.</p>
+              <hr>
+              <label for="n1"><b>First Name</b></label>
+              <input type="text" placeholder="First Name" name="n1" required>
+              <label for="n2"><b>Last Name</b></label>
+              <input type="text" placeholder="Last Name" name="n2" required>
+              <label for="sex"><b>Gender</b></label><br>
+              <input type="radio" name="gender" value="male" checked> Male<br>
+              <input type="radio" name="gender" value="female"> Female<br>
+              <input type="radio" name="gender" value="other"> Other<br>
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              <label for="co-num"><b>Contact Number</b></label>
+              <input type="password" placeholder="Enter Contact Number" name="co-num">
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+              <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+            </div>
+          </form>
+    </body>
+</html>
